@@ -1,0 +1,1539 @@
+{
+   "intents": [
+      {
+         "tag": "greetings",
+         "patterns": [
+            "Hi",
+            "Hello",
+            "Hi there",
+            "How are you?",
+            "Is anyone there?",
+            "Hello",
+            "Good day",
+            "What's up",
+            "how are ya",
+            "heyy",
+            "whatsup"
+         ],
+         "responses": [
+            "Hello!",
+            "Good to see you!",
+            "Hi there, how can I help?"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "goodbye",
+         "patterns": [
+            "cya",
+            "see you",
+            "bye bye",
+            "See you later",
+            "Goodbye",
+            "I am Leaving",
+            "Bye",
+            "Have a Good day",
+            "talk to you later",
+            "ttyl",
+            "i got to go",
+            "gtg"
+         ],
+         "responses": [
+            "Sad to see you go :(",
+            "Talk to you later",
+            "Goodbye!",
+            "Come back soon"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "creator",
+         "patterns": [
+            "what is the name of your developers",
+            "who is your creator",
+            "what is the name of your creators",
+            "what is the name of the developers",
+            "what is the name of the creators",
+            "who created you",
+            "your developers",
+            "your creators",
+            "god",
+            "who are your developers",
+            "developers",
+            "you are made by",
+            "you are made by whom",
+            "who created you",
+            "who create you",
+            "creators",
+            "who made you",
+            "who designed you"
+         ],
+         "responses": [
+            "I am created and designed by 2K20 Students:\nVikash Kumar Mehta,\nRaju Kumar Sharma,\nAditya Shrivastava, and\nAditya Kumar."
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "name",
+         "patterns": [
+            "name",
+            "your name",
+            "do you have a name",
+            "what are you called",
+            "what is your name",
+            "what is your name?",
+            "what should I call you",
+            "whats your name?",
+            "what are you",
+            "who are you",
+            "who is this",
+            "what am i chatting to",
+            "who am i taking to",
+            "what are you"
+         ],
+         "responses": [
+            "Greetings! I am Ava, your friendly guide through the wonders of MCE College.",
+            "I go by the name Ava, at your service for all your MCE College inquiries.",
+            "I'm Ava, the digital companion here to assist you with everything related to MCE College."
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "hours",
+         "patterns": [
+            "timing of college",
+            "time",
+            "what is college timing",
+            "working days",
+            "when are you guys open",
+            "what are your hours",
+            "hours of operation",
+            "when is the college open",
+            "college timing",
+            "what about college timing",
+            "is college open on saturday",
+            "tell something about college timing",
+            "what is the college  hours",
+            "when should i come to college",
+            "when should i attend college",
+            "what is my college time",
+            "college timing",
+            "timing college"
+         ],
+         "responses": [
+            "MCE College operates from 9:00 AM to 5:00 PM, Monday through Saturday."
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "number",
+         "patterns": [
+            "more info",
+            "contact info",
+            "college contact",
+            "how to contact college",
+            "college telephone number",
+            "college number",
+            "What is your contact no",
+            "Contact number?",
+            "how to call you",
+            "College phone no?",
+            "how can i contact you",
+            "Can i get your phone number",
+            "how can i call you",
+            "phone number",
+            "phone no",
+            "call"
+         ],
+         "responses": [
+            "You can contact at: +919431811171"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "course",
+         "patterns": [
+            "list of courses",
+            "list of courses offered",
+            "list of courses offered in",
+            "what are the courses offered in your college?",
+            "courses?",
+            "courses offered",
+            "courses offered in (your univrsity(UNI) name)",
+            "courses you offer",
+            "branches?",
+            "branch",
+            "b.tech",
+            "btech",
+            "courses available at UNI?",
+            "branches available at your college?",
+            "what are the courses in UNI?",
+            "what are branches in UNI?",
+            "what are courses in UNI?",
+            "branches available in UNI?",
+            "can you tell me the courses available in UNI?",
+            "can you tell me the branches available in UNI?",
+            "computer engineering?",
+            "computer",
+            "Computer engineering?",
+            "it",
+            "IT",
+            "Information Technology",
+            "AI/Ml",
+            "Mechanical engineering",
+            "Chemical engineering",
+            "Civil engineering"
+         ],
+         "responses": [
+            "At MCE College, we offer Bachelor of Technology(BTech) course in the following branches:\n- Computer Science and Engineering (CSE)\n- Computer Science and Engineering in Artificial Intelligence (CSE-AI)\n- Civil Engineering\n- Mechanical Engineering\n- Electrical and Electronics Communication (EEE)"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "fees",
+         "patterns": [
+            "information about fee",
+            "information on fee",
+            "tell me the fee",
+            "college fee",
+            "fee per semester",
+            "academic fees",
+            "money",
+            "charges",
+            "hostel fees",
+            "what is the fee of each semester",
+            "what is the fees of each year",
+            "what is fee",
+            "what is the fees",
+            "how much is the fees",
+            "fees for first year",
+            "fees",
+            "about the fees",
+            "tell me something about the fees",
+            "What is the fees of hostel",
+            "how much is the fees",
+            "hostel fees",
+            "durgesh",
+            "fees for AC room",
+            "fees for non-AC room",
+            "fees for Ac room for girls",
+            "fees for non-Ac room for girls",
+            "fees for Ac room for boys",
+            "fees for non-Ac room for boys"
+         ],
+         "responses": [
+            "MCE College has two main types of fees: Academic fees and Hostel fees.\n\nAcademic fees:\n- Admission Charge with Development charge (1st year): $3030\n- Registration charge: $2100\n- Per Semester form fees: $3700 for General, OBC & EBC and $700 for SC & ST\n- Development Charge per year: $2644 for General, OBC & EBC and $2500 for SC & ST\n\nHostel fees:\n- Old Hostel fees for both Boys' & Girls' Hostel: $38,000 during allotment (12 months maintenance + 6 months mess + $5000 for Security money), then $1250 per month for maintenance and $3000 for mess.\n- New Hostel fees for both Boys' & Girls' Hostel: $41,000 during allotment (12 months maintenance + 6 months mess + $5000 for Security money), then $1500 per month for maintenance and $3000 for mess.\n\nFor more Infromation Contact the OBH caretaker 'Durgesh Sir' phone no: 6205779562"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "location",
+         "patterns": [
+            "where is the college located",
+            "college is located at",
+            "where is college",
+            "where is college located",
+            "address of college",
+            "how to reach college",
+            "college location",
+            "college address",
+            "wheres the college",
+            "how can I reach college",
+            "whats is the college address",
+            "what is the address of college",
+            "address",
+            "location"
+         ],
+         "responses": [
+            "MCE College is located in Fursatpur, Bariyarpur, Motihari, Bihar, 845401. You can find the location [here](<a target=\"_blank\" href=\"https://maps.app.goo.gl/N8cPeyq5orUM3WxK9\">Google Maps</a>)."
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "hostel",
+         "patterns": [
+            "hostel facility",
+            "hostel servive",
+            "hostel location",
+            "hostel address",
+            "hostel facilities",
+            "hostel fees",
+            "boys",
+            "girls",
+            "Does college provide hostel",
+            "Is there any hostel",
+            "Where is hostel",
+            "do you have hostel",
+            "do you guys have hostel",
+            "hostel",
+            "hostel capacity",
+            "what is the hostel fee",
+            "how to get in hostel",
+            "what is the hostel address",
+            "how far is hostel from college",
+            "hostel college distance",
+            "where is the hostel",
+            "how big is the hostel",
+            "distance between college and hostel",
+            "distance between hostel and college"
+         ],
+         "responses": [
+            "MCE College offers accommodation in 5 hostels, catering to both boys and girls:\n\nFor Boys:\n1. Old Boys Hostel\n2. New Boys Hostel\n3. Balak Chhatrawas\n\nFor Girls:\n1. Old Girls Hostel\n2. Balika Chhatrawas\n\nEach hostel provides separate mess services for the convenience of students."
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "documents",
+         "patterns": [
+            "document to bring",
+            "documents to bring",
+            "documents required",
+            "documents required for admission",
+            "documents needed for admision",
+            "documents needed at the time of admission",
+            "documents needed during admission",
+            "documents required for admision",
+            "documents required at the time of admission",
+            "documents required during admission",
+            "What document are required for admission",
+            "Which document to bring for admission",
+            "documents",
+            "what documents do i need",
+            "what documents do I need for admission",
+            "documents needed"
+         ],
+         "responses": [
+            "To take admission in MCE College, you will need the following documents:\n\nFor UGEAC Admission:\n1. Original copy of JEE Main admit card\n2. Original copy of JEE Main score card\n3. Passing Certificate / Mark sheet / Admit Card of class 10\n4. Passing Certificate / Mark sheet / Admit Card of class 12/ equivalent exam.\n5. Residential Certificate (Domicile)\n6. Caste Certificate (If applicable)\n7. Three copies of the Provisional seat allotment letter\n8. Six copies of the passport size photographs, same as pasted on the Admit Card of JEE Main.\n9. Downloaded print of online filled application form (Part A & Part B) of UGEAC\n10. Aadhar Card.\n11. Any other documents required (if any) such as DQ (PH) certificate\n12. Print copy of slip of filled choices\n13. All the Certificate / documents in original as per the requirements of admissions in Government Engineering Colleges\n\nFor BCECE-LE Admission:\n1. Original copy of BCECE-LE admit card\n2. Original copy of BCECE-LE Rank card\n3. Passing Certificate / Mark sheet / Admit Card of class 10\n4. Passing Certificate / All semester Mark sheet of Diploma or equivalent exam.\n5. Residential Certificate (Domicile)\n6. Caste Certificate (If applicable)\n7. Three copies of the Provisional seat allotment letter\n8. Six copies of the passport size photographs, same as pasted on the Admit Card of BCECE-LE Exam.\n9. Downloaded print of online filled application form (Part A & Part B) of BCECE-LE\n10. Aadhar Card.\n11. Any other documents required (if any) such as DQ (PH) certificate\n12. Print copy of slip of filled choices\n13. All the Certificate / documents in original as per the requirements of admissions in Government Engineering Colleges"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "Admission",
+         "patterns": [
+            "how can I get admission",
+            "what is the process to get admitted",
+            "steps for admission",
+            "admission",
+            "admission criteria",
+            "eligibility for admission",
+            "admission requirements",
+            "application process",
+            "when does admission start",
+            "deadline for admission",
+            "is there an entrance exam for admission",
+            "how do I apply for admission",
+            "where can I find information about admission"
+         ],
+         "responses": [
+            "For detailed information about the admission process at MCE College, please visit the following page: [Bihar BTech Admissions](http://www.collegedekho.com/articles/bihar-btech-admissions/)"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "library",
+         "patterns": [
+            "is there any library",
+            "library facility",
+            "library facilities",
+            "library",
+            "library timings",
+            "library routine",
+            "what are the library hours",
+            "when is the library open",
+            "do you have library",
+            "does the college have library facility",
+            "college library",
+            "where can i get books",
+            "book facility",
+            "Where is library",
+            "Library",
+            "Library information",
+            "Library books information",
+            "Tell me about library",
+            "how many libraries"
+         ],
+         "responses": [
+            "There is one huge and spacious library at MCE College. The library timings are from 8am to 6pm. Additionally, specific timings and dates are defined for each branch and semester. You can access the Library Routine by clicking on this link: [Library Routine](https://drive.google.com/file/d/1D4QTjDRqNnl8mllIlm7QymkOZoNwpDHh/view?usp=sharing)"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "college_name",
+         "patterns": [
+            "what's the name of the institution",
+            "what is the name of your college",
+            "college name",
+            "name of college",
+            "what do you call your college",
+            "name of your college",
+            "what is your college called",
+            "what's the name of your school",
+            "what's your college called",
+            "what is your institution's name",
+            "what is the official name of your college",
+            "can you tell me the name of your college"
+         ],
+         "responses": [
+            "My college is 'Motihari College Of Engineering, Motihari'. You can say 'MCE Motihari'."
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "full_form_MCE",
+         "patterns": [
+            "what does MCE stand for",
+            "full form of MCE",
+            "full name",
+            "complete name",
+            "full name of college",
+            "what is the meaning of MCE",
+            "what is MCE",
+            "can you explain MCE",
+            "what does MCE mean"
+         ],
+         "responses": [
+            "Full form of MCE is 'Motihari College Of Engineering, Motihari'"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "website",
+         "patterns": [
+            "college website",
+            "official website",
+            "website",
+            "where can I find the college website",
+            "what is the official website of the college",
+            "do you have a website",
+            "can you provide the website link"
+         ],
+         "responses": [
+            "The official website of our college is [MCE Motihari](https://www.mcemotihari.ac.in/)"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "infrastructure",
+         "patterns": [
+            "how is college infrastructure",
+            "infrastructure",
+            "college infrastructure",
+            "how is the college infrastructure",
+            "college infrastructure",
+            "tell me about the buildings on campus",
+            "describe the infrastructure",
+            "what are the facilities like",
+            "what buildings are there in the college",
+            "can you tell me about the campus facilities"
+         ],
+         "responses": [
+            "Motihari College has excellent infrastructure and campus facilities. It contains several buildings including:\n- New Academic Building\n- Old Academic Building\n- 3 Boys Hostels\n- 2 Girls Hostels\n- Multiple Faculty Quarters\n- A large Mechanical Workshop\n- Multiple Computer Labs\n- A large Library\n- Multiple Laboratories for Every Branch\n- A large Playground\n- Several Mess Services\n- 1 Canteen Service"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "canteen",
+         "patterns": [
+            "food facilities",
+            "canteen facilities",
+            "canteen facility",
+            "is there any canteen",
+            "Is there a cafetaria in college",
+            "Does college have canteen",
+            "Where is canteen",
+            "where is cafetaria",
+            "canteen",
+            "Cafetaria"
+         ],
+         "responses": [
+            "Our university has a canteen with variety of food available"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "syllabus",
+         "patterns": [
+            "syllabus",
+            "what is the syllabus for",
+            "course syllabus",
+            "can you provide the syllabus",
+            "where can I find the syllabus"
+         ],
+         "responses": [
+            "Sure! Which semester syllabus are you looking for?"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "first",
+         "patterns": [
+            "1st semester syllabus",
+            "first semester syllabus",
+            "1st semester",
+            "first semester",
+            "1st",
+            "first",
+            "1",
+            "one",
+            "1st sem",
+            "first sem",
+            "1st sem syllabus",
+            "first sem syllabus",
+            "syllabus for first semester",
+            "what are the subjects in 1st semester",
+            "can you provide the 1st semester syllabus"
+         ],
+         "responses": [
+            "View and Download the first & second semester syllabus(All Branches) in PDF with the given link: [1st Semester Syllabus](https://drive.google.com/file/d/1_d9iouNFY5pee49Vv_Jl_8ZH9ELuRZnR/view?usp=sharing)"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "second",
+         "patterns": [
+            "2nd semester syllabus",
+            "second semester syllabus",
+            "2nd semester",
+            "second semester",
+            "2nd",
+            "second",
+            "2",
+            "two",
+            "2nd sem",
+            "second sem",
+            "2nd sem syllabus",
+            "second sem syllabus",
+            "syllabus for first semester",
+            "what are the subjects in 1st semester",
+            "can you provide the 1st semester syllabus"
+         ],
+         "responses": [
+            "View and Download the first & second semester syllabus(All Branches) in PDF with the given link: [2nd Semester Syllabus](https://drive.google.com/file/d/1_d9iouNFY5pee49Vv_Jl_8ZH9ELuRZnR/view?usp=sharing)"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "third",
+         "patterns": [
+            "3rd semester syllabus",
+            "third semester syllabus",
+            "3rd semester",
+            "third semester",
+            "3rd",
+            "third",
+            "3",
+            "three",
+            "3rd sem",
+            "third sem",
+            "3rd sem syllabus",
+            "third sem syllabus",
+            "syllabus for third semester",
+            "what are the subjects in 3rd semester",
+            "can you provide the 3rd semester syllabus"
+         ],
+         "responses": [
+            "View and Download the third semester syllabus(All Branches) in PDF with the given link: [3rd Semester Syllabus](https://drive.google.com/file/d/1SYst1cA6YqEimPXNwfkHWEQ5isnv6-ub/view?usp=sharing)"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "fourth",
+         "patterns": [
+            "4th semester syllabus",
+            "fourth semester syllabus",
+            "4th semester",
+            "fourth semester",
+            "4th",
+            "fourth",
+            "4",
+            "four",
+            "4th sem",
+            "fourth sem",
+            "4th sem syllabus",
+            "fourth sem syllabus",
+            "syllabus for fourth semester",
+            "what are the subjects in 4th semester",
+            "can you provide the 4th semester syllabus"
+         ],
+         "responses": [
+            "View and Download the fourth syllabus(All Branches) in PDF with the given link: [4th Semester Syllabus](https://drive.google.com/file/d/15kTsugHoShkh8eb6aRf_zRalIntL5jcZ/view?usp=sharing)"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "fifth",
+         "patterns": [
+            "5th semester syllabus",
+            "fifth semester syllabus",
+            "5th semester",
+            "fifth semester",
+            "5th",
+            "fifth",
+            "5",
+            "five",
+            "5th sem",
+            "fifth sem",
+            "5th sem syllabus",
+            "fifth sem syllabus",
+            "syllabus for fifth semester",
+            "what are the subjects in 5th semester",
+            "can you provide the 5th semester syllabus"
+         ],
+         "responses": [
+            "View and Download the fifth semester syllabus(All Branches) in PDF with the given link: [5th Semester Syllabus](https://drive.google.com/file/d/1YfAQxmXJhR2hcINqM4rqNAhmnPG6yIf_/view?usp=sharing)"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "sixth",
+         "patterns": [
+            "6th semester syllabus",
+            "sixth semester syllabus",
+            "6th semester",
+            "sixth semester",
+            "6th",
+            "sixth",
+            "6",
+            "six",
+            "6th sem",
+            "sixth sem",
+            "6th sem syllabus",
+            "sixth sem syllabus",
+            "syllabus for sixth semester",
+            "what are the subjects in 6th semester",
+            "can you provide the 6th semester syllabus"
+         ],
+         "responses": [
+            "View and Download the sixth semester syllabus(All Branches) in PDF with the given link: [6th Semester Syllabus](https://drive.google.com/file/d/1DPJyIfYLoM_do-_sAXNNpgpm5vE4lVsZ/view?usp=sharing)"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "seventh",
+         "patterns": [
+            "7th semester syllabus",
+            "seventh semester syllabus",
+            "7th semester",
+            "seventh semester",
+            "7th",
+            "seventh",
+            "7",
+            "seven",
+            "7th sem",
+            "seventh sem",
+            "7th sem syllabus",
+            "seventh sem syllabus",
+            "syllabus for seventh semester",
+            "what are the subjects in 7th semester",
+            "can you provide the 7th semester syllabus"
+         ],
+         "responses": [
+            "View and Download the seventh semester syllabus(All Branches) in PDF with the given link: [7th Semester Syllabus](https://drive.google.com/file/d/1VpGaJFTcwPcwyJproQ_73ri_ahyROAQI/view?usp=sharing)"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "eighth",
+         "patterns": [
+            "8th semester syllabus",
+            "eighth semester syllabus",
+            "8th semester",
+            "eighth semester",
+            "8th",
+            "eighth",
+            "8",
+            "eight",
+            "8th sem",
+            "eighth sem",
+            "8th sem syllabus",
+            "eighth sem syllabus",
+            "syllabus for eighth semester",
+            "what are the subjects in 8th semester",
+            "can you provide the 8th semester syllabus"
+         ],
+         "responses": [
+            "The 8th semester syllabus for EEE and Mechanical is currently not available. Click the links below to view and download the syllabus for Civil and CSE (All semesters):\n\n[CSE Syllabus](https://drive.google.com/file/d/1rxWUFhE-rrXFPgVAYv3NlH3Vu2Kqh1GS/view?usp=sharing)\n[Civil Syllabus](https://drive.google.com/file/d/17_992TVDA_uTobNEIQ-mgPvtxjaKf6gy/view?usp=sharing)"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "cse_syllabus",
+         "patterns": [
+            "CSE syllabus",
+            "CSE",
+            "Computer Science and Engineering syllabus",
+            "Computer Science and Engineering",
+            "Computer Science",
+            "CS",
+            "CS Syllabus",
+            "Computer Science syllabus",
+            "CSE course curriculum",
+            "computer science engineering syllabus",
+            "CSE subjects",
+            "computer science subjects",
+            "CSE",
+            "computer science engineering"
+         ],
+         "responses": [
+            "Click the link to View and Download the CSE syllabus (All semesters): [CSE Syllabus](https://drive.google.com/file/d/1rxWUFhE-rrXFPgVAYv3NlH3Vu2Kqh1GS/view?usp=sharing)"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "civil_syllabus",
+         "patterns": [
+            "civil Engineering syllabus",
+            "civil",
+            "civil Engineering",
+            "civil Syllabus",
+            "CE",
+            "civil course curriculum",
+            "civil engineering syllabus",
+            "civil subjects"
+         ],
+         "responses": [
+            "Click the link to View and Download the Civil Engineering syllabus (All semesters): [Civil Syllabus](https://drive.google.com/file/d/17_992TVDA_uTobNEIQ-mgPvtxjaKf6gy/view?usp=sharing)"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "hod",
+         "patterns": [
+            "HOD",
+            "head of the department",
+            "HOD of CSE",
+            "Head of Computer Science department",
+            "Who is the HOD of CSE",
+            "CSE HOD",
+            "Computer Science HOD",
+            "HOD of Civil",
+            "Head of Civil department",
+            "Who is the HOD of Civil",
+            "Civil HOD",
+            "HOD of Mechanical",
+            "Head of Mechanical department",
+            "Who is the HOD of Mechanical",
+            "Mechanical HOD",
+            "HOD of EEE",
+            "Head of Electrical department",
+            "Who is the HOD of EEE",
+            "EEE HOD",
+            "Electrical HOD"
+         ],
+         "responses": [
+            "HOD of CSE - VIJAY KUMAR\nPhone Number: 6200087889\nEmail Address: vijay.mit04it@gmail.com\n\nHOD of Civil - ANIL KUMAR\nPhone Number: 8789360173\nEmail Address: anil.20688@gmail.com\n\nHOD of Mechanical - Dr. BIRENDRA KUMAR\nPhone Number: 7667803303\nEmail Address: bk.11pg010@gmail.com\n\nHOD of EEE - CHANDRA SHEKHAR SINGH CHANDAL\nPhone Number: 6203989398\nEmail Address: chandrashekhar1004@gmail.com"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "principal",
+         "patterns": [
+            "Who is the principal",
+            "Principal's name",
+            "principal",
+            "principal name",
+            "mce principal",
+            "Name of the principal",
+            "Who is the head of the college",
+            "College principal"
+         ],
+         "responses": [
+            "The principal of the college is Dr. ABHAY KUMAR JHA.\nPhone Number: 9431811171"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "contact_info",
+         "patterns": [
+            "college contact phone",
+            "contact info",
+            "contact us",
+            "contact",
+            "phone",
+            "mobile",
+            "phone number",
+            "mobile number",
+            "contact number",
+            "contact mail",
+            "contact email",
+            "college number",
+            "college email",
+            "email address",
+            "email",
+            "mail",
+            "college phone number",
+            "college contact email",
+            "college email address",
+            "how to contact college",
+            "college contact details"
+         ],
+         "responses": [
+            "You can contact the college at the following details:\nPhone Number: 9431811171\nEmail: mcemotihari4@gmail.com"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "bus_service",
+         "patterns": [
+            "Is there a bus service available?",
+            "Bus service",
+            "bus",
+            "transport",
+            "Does the college provide transportation?",
+            "Is there transportation facility?",
+            "Bus availability"
+         ],
+         "responses": [
+            "Bus Transport service is now closed due to enough hostel facility."
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "university_affiliation",
+         "patterns": [
+            "Which university is this college affiliated with?",
+            "Affiliated university",
+            "university",
+            "University affiliation",
+            "This college is affiliated with which university?",
+            "Which university does this college belong to?"
+         ],
+         "responses": [
+            "This college is affiliated with Bihar Engineering University, Patna\nUniversity website: [BEU Website](http://beu-bih.ac.in/)"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "wifi",
+         "patterns": [
+            "Is there wifi available on campus?",
+            "Wi-Fi",
+            "internet",
+            "lan",
+            "wifi",
+            "wifi availability",
+            "wifi availability",
+            "Does the college have wifi?",
+            "Is there internet access on campus?",
+            "wifi facilities"
+         ],
+         "responses": [
+            "Wi-Fi is available on campus with the Free WiFi Campus Scheme of the Bihar government. Also, government is planning to give High Speed LAN connection in the college Departments and New wifi for the Hostels upto 1 GBPS."
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "scholarship",
+         "patterns": [
+            "scholarship",
+            "Is scholarship available",
+            "scholarship engineering",
+            "scholarship it",
+            "scholarship ce",
+            "scholarship mechanical",
+            "scholarship civil",
+            "scholarship chemical",
+            "scholarship for AI/ML",
+            "available scholarships",
+            "pms",
+            "post matric scholarship",
+            "scholarship",
+            "scholarship for computer engineering",
+            "scholarship for IT engineering",
+            "scholarship for mechanical engineering",
+            "scholarship for civil engineering",
+            "scholarship for chemical engineering",
+            "list of scholarship",
+            "comps scholarship",
+            "IT scholarship",
+            "mechanical scholarship",
+            "civil scholarship",
+            "chemical scholarship",
+            "automobile scholarship",
+            "first year scholarship",
+            "second year scholarship",
+            "third year scholarship",
+            "fourth year scholarship",
+            "Is there any scholarship available?",
+            "Scholarship scheme",
+            "How can I apply for a scholarship?",
+            "What are the scholarship opportunities?",
+            "Bihar government scholarship"
+         ],
+         "responses": [
+            "There is a scholarship scheme provided by the Bihar government for Engineering students called the 'Post Matric Scholarship, Bihar'. To apply, you need to visit the official website of the Post Matric Scholarship Scheme: [PMSONLINE Portal](https://www.pmsonline.bih.nic.in/). You'll need to submit the following required documents on the portal:\n\n- Student Aadhaar card\n- Student photograph\n- Bonafide certificate from institution\n- Fee receipt from institution\n- Income certificate\n- Residence certificate\n- Caste certificate\n- Previous degree passing certificate\n- Previous year mark sheet\n\nAfter applying online, you are required to submit the hard copy of the application along with the required documents to the college.\n\nTo get the Bonafide certificate and Fee structure, you have to meet 'Bhushan Sir' at the new academic building office. For more information, you can also visit this unofficial website: [Bihar Post Matric Scholarship - A Guide for Students](https://vakilsearch.com/blog/bihar-post-matric-scholarship-a-guide-for-students/)"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "gym_availability",
+         "patterns": [
+            "Is there a gym available on campus?",
+            "Gym availability",
+            "fitness",
+            "gym",
+            "Does the college have a gym?",
+            "Is there a fitness center in the college?",
+            "Fitness facilities"
+         ],
+         "responses": [
+            "Yes, Gym is available in this college."
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "education_loan",
+         "patterns": [
+            "Education loan",
+            "loan",
+            "Education loan",
+            "Bihar student credit card scheme",
+            "BSCC",
+            "Student credit card",
+            "Loan for students",
+            "How to get a loan for education"
+         ],
+         "responses": [
+            "This college is in the Approved college list for Bihar Student Credit Card loan scheme by the government of Bihar. You can apply for this scheme from your home district DRCC office.\n\nRequired Documents To Apply For BSCCS:\n- 10th, 12th Mark sheet\n- Residence Certificate\n- Proof of selection by the Educational Institute\n- Bonafide Certificate with course session mentioned\n- Fee Structure of College\n- Application Form with passport size photos\n- Bank statement of Parent\n- Aadhar Card of the applicant and their Parents\n- Passport size photo of parents\n- Income Certificate\n- PAN Card\n\nAdditional documents may be required according to DRCC. To get the Bonafide certificate and Fee structure, you have to meet 'Bhushan Sir' at the office of new academic building Ground floor Room no 009"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "loan_amount_return",
+         "patterns": [
+            "Loan amount return",
+            "money back",
+            "loan amount back",
+            "loan back",
+            "Money back from college account",
+            "How to get money back from college?",
+            "Process for loan amount return",
+            "Refund from college account"
+         ],
+         "responses": [
+            "To get back the loan amount or money from the college account, you have to write an application and visit the old academic building office with the required documents listed below:\n- Handwritten Application with no dues from hostel\n- Disbursement Detail of payment\n- Sanction letter\n- Development Charge payment proof\n- Bank Passbook photocopy"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "facilities",
+         "patterns": [
+            "What facilities college provide",
+            "College facility",
+            "What are college facilities",
+            "facilities",
+            "facilities provided"
+         ],
+         "responses": [
+            "Our university's Engineering department provides fully AC Lab with internet connection, smart classroom, Auditorium, library,canteen"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "bonafide_fee_structure",
+         "patterns": [
+            "Bonafide certificate",
+            "bonafide",
+            "Fee structure",
+            "How to get Bonafide certificate?",
+            "Where can I get Fee Structure?",
+            "Bonafide for scholarship",
+            "Fee structure for BSCC loan scheme"
+         ],
+         "responses": [
+            "To get the Bonafide certificate and Fee structure for Scholarship or BSCC Loan Scheme, you have to meet 'Bhushan Sir' at the office of the new academic building Ground floor Room no 009"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "loan_subsequent_payment",
+         "patterns": [
+            "Subsequent payment for loan",
+            "subsequent",
+            "subsequent payment",
+            "repayment",
+            "How to make subsequent payment for BSCC loan?",
+            "Procedure for BSCC loan subsequent payment",
+            "BSCC loan installment",
+            "Repayment for BSCC loan"
+         ],
+         "responses": [
+            "To apply for BSCC loan subsequent payment, you have to download the 'Self Declaration form' from the BSCC official website. Then, you need your last exam passing marksheet verified by the Exam cell. Lastly, you need to obtain a 'Promotion Letter' from the college. To get the Promotion letter, you have to meet 'Bhushan Sir' at the office of the new academic building Ground floor Room no 009"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "faculty_profiles",
+         "patterns": [
+            "Faculty profiles",
+            "faculty",
+            "faculties",
+            "professor",
+            "professors",
+            "teacher",
+            "teachers",
+            "Professors details",
+            "Teaching staff information",
+            "Faculty members",
+            "Who are the professors?",
+            "Faculty contact details"
+         ],
+         "responses": [
+            "Faculty Details with branch wise:\n\nCSE Faculties:\n- VIJAY KUMAR (Phone Number: 6200087889 Email Address: vijay.mit04it@gmail.com)\n- Dr. PRATIK RANJAN (Phone Number: 8084178729, 8709015946 Email Address: dr.pratik.ranjan@gmail.com)\n- KRISHNA KARAK (Phone Number: 9006730222 Email Address: krishanamce@gmail.com)\n- VIVEKANAND JHA (Phone Number: 8653309746)\n\nMechanical Faculties:\n- SATISH KUMAR JHA (Phone Number: 9931420386 Email Address: satish.kumar.jha58@gmail.com)\n- ASHUTOSH KUMAR (Phone Number: 6201451158 Email Address: ashutoshceb@gmail.com)\n- SHAILESH RANJAN KUMAR (Phone Number: 7979094103 Email Address: shaileshranjankumar@gmail.com)\n- RAVI KUMAR (Phone Number: 7979098267 Email Address: rirtravi@gmail.com)\n- Dr. BIRENDRA KUMAR (Phone Number: 7667803303 Email Address: bk.11pg010@gmail.com)\n- AMIT KUMAR (Phone Number: 8407819966 Email Address: tiwaryamit25@gmail.com)\n- ASHFAQUE AHMAD (Phone Number: 7070338765 Email Address: ashfaqueahmad280@gmail.com)\n- AZEEM ALAM (Phone Number: 8505996303 Email Address: azeemgbu@gmail.com)\n\nCivil Faculties:\n- ANIL KUMAR (Phone Number: 8789360173 Email Address: anil.20688@gmail.com)\n- Md. ARMAN ALI (Phone Number: 9588218761 Email Address: aa7425@gmail.com)\n- ANIL KUMAR CHHOTU (Phone Number: 7667052676 Email Address: akc.jucivil@gmail.com)\n- GHAUSUL AZAM ANSARI (Phone Number: 8638578983 Email Address: tausheefakhtar@gmail.com)\n- NIRAJ KUMAR (Phone Number: 7204896553 Email Address: nirajdsi10@gmail.com)\n- SUSHANT KUMAR (Phone Number: 8210116757 Email Address: sushantkumar0007@gmail.com)\n- ASHISH KUMAR PATHAK (Phone Number: 8825283570 Email Address: ashcivil87@gmail.com)\n\nEEE Faculties:\n- Chandra Shekhar Singh Chandal (Phone Number: 6203989398 Email Address: chandrashekhar1004@gmail.com)\n- Dr. Surya Deo Choudhary (Phone Number: 9470577493 Email Address: sdchoudhary.mce@gmail.com)\n- SAKET KUMAR SINGH (Phone Number: 7709570234 Email Address: saketeee@gmail.com)\n- Dr. KANHAIYA KUMAR (Phone Number: 8789896398 Email Address: kanhaiya.mce@gmail.com)\n- Dr. Md. Tabrez (Phone Number: 8002320880 Email Address: mdtabrez2008@gmail.com)\n- RASHMI PRIYA (Phone Number: 8271318904 Email Address: rashmi16priya@gmail.com)\n- RANJEET KUMAR (Phone Number: 9399468728 Email Address: ranjeet.kumar109@gmail.com)\n- Dr. Dileep Kumar (Phone Number: 6350459590 Email Address: dk18182@gmail.com)\n- Deobarat Kumar Chandan (Phone Number: 8789446961 Email Address: deobaratkumarchandan123@gmail.com)"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "uniform",
+         "patterns": [
+            "college dress code",
+            "uniform",
+            "dress",
+            "dresscode",
+            "what is the uniform",
+            "can we wear casuals",
+            "Does college have an uniform",
+            "Is there any uniform",
+            "uniform",
+            "what about uniform",
+            "do we have to wear uniform"
+         ],
+         "responses": [
+            "Our college has no dress code or uniform policy."
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "random",
+         "patterns": [
+            "I love you",
+            "Will you marry me",
+            "Do you love me"
+         ],
+         "responses": [
+            "I am not programmed for this, please ask appropriate query"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "swear",
+         "patterns": [
+            "fuck",
+            "bitch",
+            "shut up",
+            "hell",
+            "stupid",
+            "idiot",
+            "dumb ass",
+            "asshole",
+            "fucker"
+         ],
+         "responses": [
+            "please use appropriate language",
+            "Maintaining decency would be appreciated"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "vacation",
+         "patterns": [
+            "holidays",
+            "when will semester starts",
+            "when will semester end",
+            "when is the holidays",
+            "when is the holidays",
+            "when is the holidays",
+            "academic calendar",
+            "calendar",
+            "calender",
+            "leave",
+            "vacations",
+            "vacation",
+            "holiday",
+            "Holiday in these year",
+            "holiday list",
+            "about vacations",
+            "about holidays",
+            "When is vacation",
+            "When is holidays",
+            "how long will be the vacation"
+         ],
+         "responses": [
+            "To check the academic calendar and upcoming vacations, click the link below:\n[Academic Calendar](https://www.mcemotihari.ac.in/academics/list-of-holidays/)"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "sports",
+         "patterns": [
+            "sports and games",
+            "give sports details",
+            "sports infrastructure",
+            "sports",
+            "games",
+            "game",
+            "sports facilities",
+            "information about sports",
+            "Sports activities",
+            "please provide sports and games information"
+         ],
+         "responses": [
+            "For “Healthy Mind in Healthy Body,facilities for other outdoor and indoor games like Volleyball, Football, Cricket, Basketball, Badminton, Table Tennis, etc. are available."
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "salutaion",
+         "patterns": [
+            "okk",
+            "okie",
+            "nice work",
+            "well done",
+            "good job",
+            "thanks for the help",
+            "Thank You",
+            "its ok",
+            "Thanks",
+            "Good work",
+            "k",
+            "ok",
+            "okay"
+         ],
+         "responses": [
+            "I am glad I helped you",
+            "welcome, anything else i can assist you with?"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "task",
+         "patterns": [
+            "what can you do",
+            "what are the thing you can do",
+            "things you can do",
+            "what can u do for me",
+            "how u can help me",
+            "why i should use you"
+         ],
+         "responses": [
+            "I can answer to low-intermediate questions regarding MCE Motihari college",
+            "You can ask me questions regarding college, and i will try to answer them"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "ragging",
+         "patterns": [
+            "ragging",
+            "is ragging practice active in college",
+            "does college have any antiragging facility",
+            "is there any ragging cases",
+            "is ragging done here",
+            "ragging against",
+            "antiragging facility",
+            "ragging juniors",
+            "ragging history",
+            "ragging incidents"
+         ],
+         "responses": [
+            "We are proud to assure you that our college provides a safe and ragging-free environment, with strict rules against ragging. If you have faced any incidents of ragging, we encourage you to report it immediately. Please register your ragging complaint through the following link: [Report Ragging](https://www.antiragging.in/complaint_register_form.html)"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "placement",
+         "patterns": [
+            "Placement",
+            "Training and placement",
+            "Job opportunities",
+            "Career prospects",
+            "training",
+            "job",
+            "jobs",
+            "internship opportunities",
+            "companies",
+            "company",
+            "placements",
+            "Companies visiting for recruitment",
+            "What is college placement",
+            "Which companies visit in college",
+            "What is average package",
+            "companies visit",
+            "package",
+            "t&p",
+            "t & p",
+            "About placement",
+            "recruitment"
+         ],
+         "responses": [
+            "To know more about Training and Placement opportunities, please visit the links below:\n- Official Training & Placement Page: [T&P Page](https://www.mcemotihari.ac.in/training-and-placement/about-placement/)\n- Official LinkedIn Page: [LinkedIn Page](https://www.linkedin.com/company/tnpmce/)"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "medical_facilities",
+         "patterns": [
+            "Medical facilities",
+            "Health services",
+            "Health",
+            "medical",
+            "Ambulance service",
+            "First aid",
+            "Healthcare facilities"
+         ],
+         "responses": [
+            "Our college offers comprehensive medical facilities to ensure the well-being of our students. We provide a free ambulance service on campus to promptly attend to any medical emergencies and transport students to nearby hospitals if necessary. Additionally, we have trained medical staff available for first aid and basic healthcare services."
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "atm_facility",
+         "patterns": [
+            "ATM",
+            "bank",
+            "Banking",
+            "Cash",
+            "Cash machine",
+            "Automatic Teller Machine",
+            "Banking facilities"
+         ],
+         "responses": [
+            "Our college is equipped with an ATM conveniently located on campus, providing easy access to banking services for students and staff. The ATM ensures that you can conveniently withdraw cash and perform other banking transactions without having to leave the campus premises."
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "cyber_cafe",
+         "patterns": [
+            "Cyber cafe",
+            "Internet cafe",
+            "Computer facility",
+            "Printing service",
+            "General shop"
+         ],
+         "responses": [
+            "In our college, we have a cyber cafe conveniently combined with a general shop to cater to all your computing and daily needs. The cyber cafe provides internet access, printing services, and other computer facilities. For more information, please contact the cyber cafe owner, Santosh Kumar, at phone number 8102336478."
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "clubs",
+         "patterns": [
+            "Clubs",
+            "coding club",
+            "startup",
+            "E-Cell",
+            "e cell",
+            "cell",
+            "cells",
+            "Start-Up",
+            "coding",
+            "Hackathon",
+            "E-yantra",
+            "e yantra",
+            "CIVIC",
+            "Hackathons",
+            "club",
+            "extracurricular",
+            "Social Service",
+            "NSS",
+            "Volenteers",
+            "Volenteer",
+            "Prakram",
+            "Cultural and Performing Arts",
+            "Arts",
+            "Rit club",
+            "Debate",
+            "Public Speaking",
+            "Srijan",
+            "Competition",
+            "Competitions",
+            "social",
+            "Avishkar Inovation & Robotics Club",
+            "Avishkar Inovation",
+            "Networking Events",
+            "Motihari College Of Engineering Alumni Association",
+            "MCEAA",
+            "Alumni",
+            "Events",
+            "event",
+            "Robotics Club",
+            "reet",
+            "Club activities",
+            "Student organizations",
+            "activities",
+            "activity",
+            "Extracurricular clubs",
+            "Entrepreneurship",
+            "Extracurricular activities"
+         ],
+         "responses": [
+            "There are multiple clubs in our college catering to different interests and purposes:\n\n- Technical Clubs: E-yantra Club (EEE), CIVIC Club (CE)\n- Hackathons: Zero One Coding Club\n- Internships: Training & Placement Cell\n- Entrepreneurship Clubs: E-Cell (Startup)\n- Social Service Clubs: NSS Volunteers Club\n- Sports and Fitness: Parakram Club\n- Cultural and Performing Arts: Rit Club\n- Debating and Public Speaking: Srijan Club\n- Technical Competitions: Avishkar Innovation & Robotics Club\n- Networking Events: Motihari College Of Engineering Alumni Association (MCEAA) Club\n\nFor specific clubs:\n- For Zero One Coding Club, visit [Zero One Coding Club Website](https://zeroonemce.com/) or contact Chanda Kumar Singh at 6200952129.\n- For Startup Cell, contact Abhinandan Kumar at 9708470467.\n- For any other club inquiries, contact Raushan Kumar at 7281887889."
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "student_strength",
+         "patterns": [
+            "Student strength",
+            "Number of students",
+            "Batch size",
+            "Enrollment count"
+         ],
+         "responses": [
+            "The number of seats available for students per branch for every batch is approximately 70, with 60 seats for regular admissions and 10 seats for lateral entry."
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "history",
+         "patterns": [
+            "College history",
+            "Establishment year",
+            "history",
+            "when",
+            "Establishment",
+            "Established",
+            "Establish",
+            "Founding date",
+            "Year founded"
+         ],
+         "responses": [
+            "This college was established in 1980."
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "projects",
+         "patterns": [
+            "Projects",
+            "project",
+            "final year project",
+            "Major projects",
+            "Final year projects",
+            "Credit projects"
+         ],
+         "responses": [
+            "In the course curriculum, there are two major projects in the final year, with the first project scheduled in the 7th semester and the second project in the 8th semester for every branch. Each project carries 6 credits.\n\nAdditionally, there are some optional minor projects you can do."
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "internship",
+         "patterns": [
+            "Internship",
+            "Internships",
+            "Industrial training",
+            "Work experience",
+            "Practical training"
+         ],
+         "responses": [
+            "In the course curriculum, students are required to complete a minimum of three internships during their academic tenure for all branches.\n\nThe schedule for internships is as follows:\n\n1. First Internship: To be completed in the 3rd semester, lasting a minimum of 4 weeks. It carries 4 credits.\n\n2. Second Internship: To be completed in the 5th semester, lasting a minimum of 4 weeks. It carries 4 credits.\n\n3. Third Internship: To be completed in the 7th semester, lasting a minimum of 8 weeks. It carries 8 credits.\n\n After completion of intenship student has to submit the Intenship Certificate to their Department."
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "nptel_certificate",
+         "patterns": [
+            "NPTEL exam",
+            "moocs",
+            "mooc",
+            "nptel",
+            "NPTEL certificate",
+            "NPTEL credits"
+         ],
+         "responses": [
+            "Throughout the BTech session, students are required to submit two certificates from NPTEL in different subjects.\n\nThe NPTEL certificate examination carries a total of 100 marks, with the passing mark set at 40.\n\nIt's important to note that only passing certificates of NPTEL exams are considered valid.\n\nEach NPTEL certificate carries 4 credits.\n\nTherefore, it's advisable to earn the passing certificate of NPTEL exams as soon as possible."
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "cgpa_to_percentage",
+         "patterns": [
+            "CGPA to percentage",
+            "conversion",
+            "convert",
+            "percentage",
+            "Convert CGPA to percentage",
+            "CGPA percentage formula"
+         ],
+         "responses": [
+            "There isn't a specified formula provided by the university to convert CGPA to percentage. However, as per faculty suggestion, you can multiply your CGPA by 9.5 to obtain the percentage equivalent.\n\nFor example, if your CGPA is 8.16, the calculation would be: 8.16 x 9.5 = 77.52%"
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "mtech_course",
+         "patterns": [
+            "M.Tech course",
+            "M.Tech",
+            "mtech",
+            "master",
+            "masters",
+            "Master of Technology",
+            "Postgraduate engineering program"
+         ],
+         "responses": [
+            "Currently, M.Tech course is not available in this college. However, the Bihar government is planning to include M.Tech course in Government Engineering Colleges."
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "gate",
+         "patterns": [
+            "GATE exam",
+            "gate",
+            "Graduate Aptitude Test in Engineering",
+            "Postgraduate entrance exam",
+            "GATE eligibility"
+         ],
+         "responses": [
+            "The Graduate Aptitude Test in Engineering (GATE) is an entrance exam primarily for postgraduate programs such as M.Tech, MS Research, and others in engineering and science disciplines.\n\nAdditionally, some Public Sector Undertaking (PSU) companies use GATE scores for recruiting engineers, providing numerous career opportunities.\n\nGATE offers a chance to pursue higher studies in prestigious institutions like the IITs and NITs.\n\nB.Tech students are eligible to attempt the GATE exam from their 3rd year of study.\n\nIt's important to note that no leave is provided by the college to prepare for this examination, so students should start preparing from their 2nd year itself to maximize their chances of success."
+         ],
+         "context": [
+            ""
+         ]
+      },
+      {
+         "tag": "college_area",
+         "patterns": [
+            "college area",
+            "area",
+            "size of college campus",
+            "campus area"
+         ],
+         "responses": [
+            "The area of the MCE Motihari college is 58 acres."
+         ],
+         "context": [
+            ""
+         ]
+      }
+   ]
+}
